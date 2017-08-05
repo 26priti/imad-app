@@ -5,10 +5,19 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var content={
+var articleone={
     title:'Article one |Priti Jadhav',
     heading:'article one',
     date:'5 aug 2017',
+    content: ` <p>
+                This is my first article. This is the first page of my article. This is the content of the article. This is my first article. This is the first page of my article. This is the content of the article. This is my first article. This is the first page of my article. This is the content of the article.
+            </p>
+              <p>
+                This is my first article. This is the first page of my article. This is the content of the article. This is my first article. This is the first page of my article. This is the content of the article. This is my first article. This is the first page of my article. This is the content of the article.
+            </p>
+              <p>
+                This is my first article. This is the first page of my article. This is the content of the article. This is my first article. This is the first page of my article. This is the content of the article. This is my first article. This is the first page of my article. This is the content of the article.
+            </p>`
 };
 
 app.get('/', function (req, res) {
