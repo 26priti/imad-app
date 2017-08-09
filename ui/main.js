@@ -1,18 +1,14 @@
-console.log('Loaded!');
-//change the text of main text div
-var element = document.getElementById("main.text");
-element.innerHTML="new Value";
-
-
-//make image move
-var img = document.getElementById("madi");
-var marginleft=0;
-
-function moveRight(){
-  marginleft = marginleft+1;
-  img.style.marginleft = marginleft+'px';
-}
-
-img.onclick = function(){
-    var interval=  setInterval(moveRight,  50);
+//counter code
+var button=document.getElementByID(counter);//getting button
+var counter;
+button.onclick =function(){
+    //button should request counter endpoint 
+    
+    //capture respond and store it in the variable
+    
+    //render the variable in correct span
+    counter=counter+1;
+    var span=document.getElementById(count);
+    count.innerHTML=counter.toString();
+    
 };
