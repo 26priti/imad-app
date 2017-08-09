@@ -1,6 +1,6 @@
 //counter code
 var button=document.getElementByID(counter);//getting button
-var counter;
+
 button.onclick =function(){ 
     //button should request counter endpoint with xmlHTTP request
     var request = new XMLHttpRequest();
@@ -16,8 +16,10 @@ button.onclick =function(){
         
     }
     }
+    //not done yet
     };
     
-    //render the variable in correct span
-    counter =counter + 1;
+    //make request
+    request.open('GET', "http://priti26jadhav.imad.hasura-app.io/counter", true);
+    request.send(null);
 };
