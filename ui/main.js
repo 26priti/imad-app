@@ -14,7 +14,7 @@ button.onclick = function(){
               span.innerHTML = counter.toString();
           }
       }
-      //no
+      //not done yet
     };
    //make request
     request.open('GET', "http://priti26jadhav.imad.hasura-app.io/counter", true);
