@@ -2,7 +2,7 @@
 var button=document.getElementByID(counter);//getting button
 
 button.onclick =function(){ 
-    //button should request counter endpoint with xmlHTTP request
+    //creater equest object
     var request = new XMLHttpRequest();
     
     //capture respond and store it in the variable
