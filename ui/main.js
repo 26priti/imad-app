@@ -23,9 +23,9 @@ button.onclick = function(){
 };
 
 //name
-var nameInput = document.getElementById("name");
+var nameInput = document.getElementById('name');
 var name= nameInput.value;
-var submit= dcument.getElementById("submit_btn");
+var submit= document.getElementById('submit_btn');
 submit.onclick = function(){
     //make request to server and send the name
     //capture names and render list
