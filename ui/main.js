@@ -16,6 +16,8 @@ button.onclick = function(){
       }
       //no
     };
-   
+   //make request
+    request.open('GET', "http://priti26jadhav.imad.hasura-app.io/counter", true);
+    request.send(null);
     
 };
