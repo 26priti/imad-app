@@ -35,7 +35,6 @@ var articles= {
     content: ` <p>
                 This is my third article. This is the first page of my article. This is the content of the article. >`
  }
-    
 };
 function createTemplate (data){
     var title=data.title;
