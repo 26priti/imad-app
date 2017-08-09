@@ -1,6 +1,6 @@
 //counter code
 var button = document.getElementById('counter');//getting button
-var counter;
+var counter = 0;
 button.onclick = function(){
     //button should request counter endpoint 
     
